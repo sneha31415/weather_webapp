@@ -19,8 +19,12 @@ def index():
 
 @app.route('/weather')
 def get_weather():
-    city = request.args.get(city)
+    city = request.args.get('city')
     # here weather_data is the json data object containing all the weather info of the city from the openWeather API
+    
+    # check for empty strings or string with only spaces
+    if not bool(city.strip()):
+        city = "Mumbai"
     weather_data = get_current_weather(city)
     return render_template(
         "weather.html",
