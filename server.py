@@ -13,8 +13,9 @@ app = Flask(__name__)
 
 @app.route('/')
 @app.route('/index')
+# unlike weather page, our index page is not receiving any data like title, status
 def index():
-    return "welcome to my weather app"
+    return render_template('index.html')
 
 @app.route('/weather')
 def get_weather():
