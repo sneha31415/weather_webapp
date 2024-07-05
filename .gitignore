@@ -1,0 +1,3 @@
+.venv
+.env 
+#.env file will store the APi keys of open weather API, we never want to share that so put in gitignore
