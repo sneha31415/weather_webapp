@@ -21,11 +21,16 @@ def index():
 def get_weather():
     city = request.args.get('city')
     # here weather_data is the json data object containing all the weather info of the city from the openWeather API
-    
+
     # check for empty strings or string with only spaces
     if not bool(city.strip()):
         city = "Mumbai"
+
     weather_data = get_current_weather(city)
+     # if we enter an invalid city, then accessing name, weather[0] etc from the json data would raise an error,the json data will only have {'cod': '404', 'message': 'city not found'}
+    
+    if not weather_data['cod'] == 200:
+        return render_template("city_not_found.html")
     return render_template(
         "weather.html",
         title = weather_data["name"], #getting the city name from the json data object of the api 
