@@ -25,7 +25,7 @@ To run this project locally, follow these steps:
     `cd weather-webapp` 
 
 
-2) Create a virtual environment:
+2) Create a virtual environment:<br>
 
     `python -m venv venv`
 
