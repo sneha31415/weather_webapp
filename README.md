@@ -1,21 +1,21 @@
 # Weather Web application ☀️
 
-### 🚀 The webapp is live at: 
+## 🚀 The webapp is live at: 
 https://weather-webapp-cvqx.onrender.com/
 
-### Overview
+## Overview
 The Weather Web Application is a simple yet effective project to understand web application development using Flask. This application leverages the OpenWeather API to fetch and display current weather data for major cities worldwide.<br>
 
 ![alt text](assets/image.png)
 
-### 🤖Technologies Used
+## 🤖Technologies Used
 - **Python**: The core programming language used for development.
 - **Flask**: A lightweight WSGI web application framework for Python.
 - **HTML/CSS**: For the front-end structure and styling.
 - **OpenWeather API**: Provides the weather data.
 - **Render**: Used for deployment of the web application.
 
-### 🦖Installation:
+## 🦖Installation:
 To run this project locally, follow these steps:
 
 1) Clone the repository:
@@ -49,7 +49,7 @@ _Create a .env file in the root directory and add your API key:_
 
 7) Open your web browser and go to **http://127.0.0.1:5000/** or  **http://localhost:8000/** to view the application.
 
-### 🔮Future Enhancements
+## 🔮Future Enhancements
 1) Improved UI: Enhance the user interface 
 
 1) Extended Forecast: Add a feature to display a 7-day weather forecast for selected cities.
