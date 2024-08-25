@@ -31,12 +31,12 @@ To run this project locally, follow these steps:
 
 3) Activate the virtual environment:
 
-    - _On Windows:_
+    - _On Windows:_<br>
     `venv\Scripts\activate `
-    - _On macOS and Linux:_
+    - _On macOS and Linux:_<br>
     `source venv/bin/activate`
 
-4) Install the dependencies:
+4) Install the dependencies:<br>
 `pip install -r requirements.txt`
 
 5) Set up the API Key:  
@@ -45,7 +45,7 @@ _Create a .env file in the root directory and add your API key:_
 
     `API_KEY = <your_api_key_here>`
 
-6) Run the application:
+6) Run the application:<br>
 `py server.py`
 
 7) Open your web browser and go to **http://127.0.0.1:5000/** or  **http://localhost:8000/** to view the application.
