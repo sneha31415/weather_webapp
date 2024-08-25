@@ -26,7 +26,8 @@ To run this project locally, follow these steps:
 
 
 2) Create a virtual environment:
-`python -m venv venv`
+
+    `python -m venv venv`
 
 3) Activate the virtual environment:
 
