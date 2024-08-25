@@ -42,7 +42,7 @@ To run this project locally, follow these steps:
 _Obtain your API key from OpenWeather._
 _Create a .env file in the root directory and add your API key:_
 
-    `API_KEY=<your_api_key_here>`
+    `API_KEY = <your_api_key_here>`
 
 6) Run the application:
 `py server.py`
