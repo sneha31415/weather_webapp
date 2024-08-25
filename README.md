@@ -9,11 +9,11 @@ The Weather Web Application is a simple yet effective project to understand web 
 ![alt text](assets/image.png)
 
 ### 🤖Technologies Used
-**Python**: The core programming language used for development.
-**Flask**: A lightweight WSGI web application framework for Python.
-**HTML/CSS**: For the front-end structure and styling.
-**OpenWeather API**: Provides the weather data.
-**Render**: Used for deployment of the web application.
+- **Python**: The core programming language used for development.
+- **Flask**: A lightweight WSGI web application framework for Python.
+- **HTML/CSS**: For the front-end structure and styling.
+- **OpenWeather API**: Provides the weather data.
+- **Render**: Used for deployment of the web application.
 
 ### 🦖Installation:
 To run this project locally, follow these steps:
