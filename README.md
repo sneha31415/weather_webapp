@@ -1,9 +1,9 @@
-# Weather Web application ☀️
+# ☀️Weather Web application
 
 ## 🚀 The webapp is live at: 
 https://weather-webapp-cvqx.onrender.com/
 
-## Overview
+## 🌥️Overview
 The Weather Web Application is a simple yet effective project to understand web application development using Flask. This application leverages the OpenWeather API to fetch and display current weather data for major cities worldwide.<br>
 
 ![alt text](assets/image.png)
