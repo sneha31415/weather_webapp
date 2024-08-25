@@ -30,9 +30,9 @@ To run this project locally, follow these steps:
 
 3) Activate the virtual environment:
 
-    _On Windows:_
+    - _On Windows:_
     `venv\Scripts\activate `
-    _On macOS and Linux:_
+    - _On macOS and Linux:_
     `source venv/bin/activate`
 
 4) Install the dependencies:
